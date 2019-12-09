@@ -1,4 +1,4 @@
-# baystation12
+# Project Legion
 
 [Website](http://baystation12.net/) - [Code](http://github.com/Baystation12/Baystation12/) - [Discord](https://discord.gg/DrtRFxs) - [IRC](irc://irc.sorcery.net/#codershuttle)
 
