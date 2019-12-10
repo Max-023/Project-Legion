@@ -1,16 +1,15 @@
 /datum/job/warden
-	title = "Brig Chief"
+	title = "Riot Trooper Commander"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief of Security"
+	supervisors = "the Stormtrooper Commander"
 	economic_power = 5
 	minimal_player_age = 7
 	ideal_character_age = 35
 	minimum_character_age = list(SPECIES_HUMAN = 27)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/brig_chief
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/security/brig_chief/fleet
+			/datum/mil_branch/expeditionary_corps
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/e7,
@@ -38,17 +37,17 @@
 							 /datum/computer_file/program/camera_monitor)
 
 /datum/job/detective
-	title = "Forensic Technician"
+	title = "Inquisitor"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Chief of Security"
+	supervisors = "the Emperor"
 	economic_power = 5
-	minimal_player_age = 7
+	minimal_player_age = 1
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	ideal_character_age = 35
 	skill_points = 14
 	alt_titles = list(
-		"Criminal Investigator"
+		"Purge Trooper"
 	)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech
 	allowed_branches = list(
@@ -87,19 +86,20 @@
 							 /datum/computer_file/program/camera_monitor)
 
 /datum/job/officer
-	title = "Master at Arms"
-	total_positions = 4
-	spawn_positions = 4
-	supervisors = "the Chief of Security"
+	title = "Stormtrooper"
+	total_positions = 10
+	spawn_positions = 10
+	supervisors = "the Stormtrooper Commander"
 	economic_power = 4
-	minimal_player_age = 7
+	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 25
-	alt_titles = list() // This is a hack. Overriding a list var with null does not actually override it due to the particulars of dm list init. Do not "clean up" without testing.
+	alt_titles = list(
+		"Riot Trooper"
+	) // This is a hack. Overriding a list var with null does not actually override it due to the particulars of dm list init. Do not "clean up" without testing.
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/maa
 	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/security/maa/fleet,
+		/datum/mil_branch/expeditionary_corps
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/ec/e3,

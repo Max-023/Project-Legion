@@ -447,3 +447,38 @@
 	name = "bundeforz armored vest"
 	desc = "A heavy armored vest in a light grey urban camo. It is surprisingly flexible and light, even with the extra webbing and advanced ceramic plates."
 	icon_state = "m_vest"
+
+/obj/item/clothing/suit/armor/heavy/imperial
+	name = "Phase III Plastoid Armor"
+	desc = "The latest model of Kaminoan plastoid armor, now lighter and adjustable to nonclone recruits."
+	icon_state = "storm_suit"
+	item_state = "obj_storm_suit"
+	w_class = ITEM_SIZE_HUGE//bulky item
+	gas_transfer_coefficient = 0.90
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	armor = list(
+		melee = ARMOR_MELEE_MAJOR,
+		bullet = ARMOR_BALLISTIC_AP,
+		laser = ARMOR_LASER_RIFLES,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BIO_MINOR
+		)
+	flags_inv = HIDEJUMPSUIT
+	siemens_coefficient = 0
+
+/obj/item/clothing/suit/armor/armor/imperial
+	name = "Phase III Plastoid Scout Armor"
+	desc = "The latest model of Kaminoan plastoid armor, now lighter and adjustable to nonclone recruits. This one is specialized for scouting and riot control."
+	icon_state = "scout_suit"
+	item_state = "obj_scout_suit"
+	gas_transfer_coefficient = 0.90
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	armor = list(
+		melee = ARMOR_MELEE_VERY_HIGH,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_RIFLES,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BIO_MINOR
+		)
+	flags_inv = HIDEJUMPSUIT
+	siemens_coefficient = 0

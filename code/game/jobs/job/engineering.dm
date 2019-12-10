@@ -6,7 +6,7 @@
 
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the moff"
 	selection_color = "#7f6e2c"
 	req_admin_notify = 1
 	economic_power = 10

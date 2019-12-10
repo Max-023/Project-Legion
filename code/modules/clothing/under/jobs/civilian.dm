@@ -17,6 +17,30 @@
 	worn_state = "captain"
 
 
+/obj/item/clothing/under/rank/imperial/navy/admiral
+	desc = "A standard imperial naval uniform."
+	name = "imperial uniform"
+	icon_state = "imperial_admiral_s"
+	item_state = "imperial_admiral"
+	worn_state = "imperial_admiral_s"
+
+/obj/item/clothing/under/rank/imperial/navy
+	desc = "A standard imperial naval uniform."
+	name = "imperial uniform"
+	icon_state = "imperial_black_s"
+	item_state = "imperial_black"
+	worn_state = "imperial_black_s"
+
+
+/obj/item/clothing/under/rank/imperial/navy/officer
+	desc = "A standard imperial naval uniform."
+	name = "imperial uniform"
+	icon_state = "imperial_olive_s"
+	item_state = "imperial_olive"
+	worn_state = "imperial_olive_s"
+
+
+
 /obj/item/clothing/under/rank/cargo
 	name = "quartermaster's jumpsuit"
 	desc = "It's a jumpsuit worn by the quartermaster. It's specially designed to prevent back injuries caused by pushing paper."

@@ -5,7 +5,7 @@
 	department_flag = SRV
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the imperial administrator"
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	minimal_access = list(access_bar)
 	alt_titles = list("Barista")
@@ -17,7 +17,7 @@
 	department_flag = SRV
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the head of personnel"
+	supervisors = "the imperial administrator"
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	minimal_access = list(access_kitchen)
 	alt_titles = list("Cook")
@@ -29,7 +29,7 @@
 	department_flag = SRV
 	total_positions = 2
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the imperial administrator"
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	minimal_access = list(access_hydroponics)
 	alt_titles = list("Hydroponicist")
@@ -37,12 +37,12 @@
 
 //Cargo
 /datum/job/qm
-	title = "Quartermaster"
+	title = "Naval Quartermaster"
 	department = "Supply"
 	department_flag = SUP
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the imperial administrator"
 	economic_power = 5
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimal_access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
@@ -51,12 +51,12 @@
 	outfit_type = /decl/hierarchy/outfit/job/cargo/qm
 
 /datum/job/cargo_tech
-	title = "Cargo Technician"
+	title = "Imperial Cargo Technician"
 	department = "Supply"
 	department_flag = SUP
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the quartermaster and the head of personnel"
+	supervisors = "the quartermaster and the imperial administrator"
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimal_access = list(access_maint_tunnels, access_cargo, access_cargo_bot, access_mailsorting)
 	outfit_type = /decl/hierarchy/outfit/job/cargo/cargo_tech
@@ -67,7 +67,7 @@
 	department_flag = SUP
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the quartermaster and the head of personnel"
+	supervisors = "the quartermaster and the imperial administrator"
 	economic_power = 5
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimal_access = list(access_mining, access_mining_station, access_mailsorting)
@@ -80,7 +80,7 @@
 	department_flag = SRV
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the imperial administrator"
 	access = list(access_janitor, access_maint_tunnels, access_engine, access_research, access_sec_doors, access_medical)
 	minimal_access = list(access_janitor, access_maint_tunnels, access_engine, access_research, access_sec_doors, access_medical)
 	alt_titles = list("Custodian","Sanitation Technician")
@@ -93,7 +93,7 @@
 	department_flag = CIV
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the imperial administrator"
 	access = list(access_library, access_maint_tunnels)
 	minimal_access = list(access_library)
 	alt_titles = list("Journalist")
@@ -105,7 +105,7 @@
 	department_flag = SPT
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "company officials and Corporate Regulations"
+	supervisors = "the emperor"
 	economic_power = 7
 	access = list(access_lawyer, access_sec_doors, access_maint_tunnels, access_bridge)
 	minimal_access = list(access_lawyer, access_sec_doors, access_bridge)

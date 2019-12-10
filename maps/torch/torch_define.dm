@@ -1,6 +1,6 @@
 /datum/map/torch
 	name = "Torch"
-	full_name = "SEV Torch"
+	full_name = "ISS Torch"
 	path = "torch"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
 
@@ -14,19 +14,19 @@
 	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage")
 	default_spawn = "Cryogenic Storage"
 
-	station_name  = "SEV Torch"
+	station_name  = "ISS Torch"
 	station_short = "Torch"
 	dock_name     = "TBD"
-	boss_name     = "Expeditionary Command"
+	boss_name     = "Imperial High Command"
 	boss_short    = "Command"
-	company_name  = "Sol Central Government"
-	company_short = "SolGov"
+	company_name  = "Imperial Senate"
+	company_short = "IS"
 
 	map_admin_faxes = list("Corporate Central Office")
 
 	//These should probably be moved into the evac controller...
-	shuttle_docked_message = "Attention all hands: Jump preparation complete. The bluespace drive is now spooling up, secure all stations for departure. Time to jump: approximately %ETD%."
-	shuttle_leaving_dock = "Attention all hands: Jump initiated, exiting bluespace in %ETA%."
+	shuttle_docked_message = "Attention all hands: Jump preparation complete. The hyperspace drive is now spooling up, secure all stations for departure. Time to jump: approximately %ETD%."
+	shuttle_leaving_dock = "Attention all hands: Jump initiated, exiting hyperspace in %ETA%."
 	shuttle_called_message = "Attention all hands: Jump sequence initiated. Transit procedures are now in effect. Jump in %ETA%."
 	shuttle_recall_message = "Attention all hands: Jump sequence aborted, return to normal operating conditions."
 

@@ -105,3 +105,15 @@
 	name = "corporate security cap"
 	desc = "It's field cap in corporate colors."
 	icon_state = "corpsec_soft"
+
+/obj/item/clothing/head/soft/imperial
+	name = "Imperial Cap"
+	desc = "It's a black cap typically worn by officers and Naval crewmen of the Empire."
+	icon_state = "imperial_black_hat"
+	item_state = "obj_imperial_black_hat"
+
+/obj/item/clothing/head/soft/imperial/olive
+	name = "Imperial Cap"
+	desc = "It's a olive cap typically worn by officers of the Empire."
+	icon_state = "imperial_olive_hat"
+	item_state = "obj_imperial_olive_hat"

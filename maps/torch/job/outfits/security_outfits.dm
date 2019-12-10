@@ -8,16 +8,11 @@
 	BACKPACK_OVERRIDE_SECURITY
 
 /decl/hierarchy/outfit/job/torch/crew/security/brig_chief
-	name = OUTFIT_JOB_NAME("Brig Chief")
+	name = OUTFIT_JOB_NAME("Riot Trooper Commander")
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/torch/crew/security/brigchief
 	pda_type = /obj/item/modular_computer/pda/security
-
-/decl/hierarchy/outfit/job/torch/crew/security/brig_chief/fleet
-	name = OUTFIT_JOB_NAME("Brig Chief - Fleet")
-	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/security
-	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech
 	name = OUTFIT_JOB_NAME("Forensic Technician - Torch")
@@ -46,13 +41,19 @@
 	shoes = /obj/item/clothing/shoes/dress
 
 /decl/hierarchy/outfit/job/torch/crew/security/maa
-	name = OUTFIT_JOB_NAME("Master at Arms")
-	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/security
+	name = OUTFIT_JOB_NAME("Stormtrooper")
+	head = /obj/item/clothing/head/helmet/imperial
+	uniform = /obj/item/clothing/under/rank/imperial
+	suit = /obj/item/clothing/suit/armor/heavy/imperial
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/weapon/card/id/torch/crew/security
 	pda_type = /obj/item/modular_computer/pda/security
 
-/decl/hierarchy/outfit/job/torch/crew/security/maa/fleet
-	name = OUTFIT_JOB_NAME("Master at Arms - Fleet")
-	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/security
+/decl/hierarchy/outfit/job/torch/crew/security/scout
+	name = OUTFIT_JOB_NAME("Scout Trooper")
+	head = /obj/item/clothing/head/helmet/imperial/scout
+	uniform = /obj/item/clothing/under/rank/imperial
+	suit = /obj/item/clothing/suit/armor/armor/imperial
 	shoes = /obj/item/clothing/shoes/dutyboots
+	id_type = /obj/item/weapon/card/id/torch/crew/security
+	pda_type = /obj/item/modular_computer/pda/security

@@ -100,9 +100,9 @@
  */
 
 /datum/mil_branch/expeditionary_corps
-	name = "Expeditionary Corps"
-	name_short = "SCGEC"
-	email_domain = "torch.ec.scg"
+	name = "Stormtrooper Corps"
+	name_short = "SC"
+	email_domain = "torch.ec.sc"
 
 	rank_types = list(
 		/datum/mil_rank/ec/e3,
@@ -130,7 +130,7 @@
 						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/fleet
-	name = "Fleet"
+	name = "Imperial Navy"
 	name_short = "SCGF"
 	email_domain = "torch.fleet.mil"
 
@@ -183,8 +183,8 @@
 						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/army
-	name = "Army"
-	name_short = "SCGA"
+	name = "Imperial Army"
+	name_short = "IA"
 	email_domain = "army.mil"
 
 	rank_types = list(
@@ -236,7 +236,7 @@
 	)
 
 /datum/mil_branch/solgov
-	name = "SolGov Employee"
+	name = "Imperial Employee"
 	name_short = "SCG"
 	email_domain = "torch.scg"
 
@@ -657,8 +657,8 @@
  */
 
 /datum/mil_rank/sol/gov
-	name = "SolGov Representative"
-	name_short = "SGR"
+	name = "Imperial Senate Representative"
+	name_short = "ISR"
 	accessory = list(/obj/item/clothing/accessory/badge/solgov/representative)
 
 /datum/mil_rank/sol/agent

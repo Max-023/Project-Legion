@@ -223,3 +223,31 @@
 	desc = "A helmet built for use by a Skrell. This one appears to be fairly standard and reliable."
 	icon_state = "helmet_skrell"
 	valid_accessory_slots = null
+
+/obj/item/clothing/head/helmet/imperial
+	name = "Phase III Plastoid Helmet"
+	desc = "A Phase III helmet model from the Kaminoan facilities."
+	icon_state = "storm_helmet"
+	item_state = "obj_storm_helmet"
+	valid_accessory_slots = null
+	armor = list(
+		melee = ARMOR_MELEE_MAJOR,
+		bullet = ARMOR_BALLISTIC_AP,
+		laser = ARMOR_LASER_HANDGUNS,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BIO_MINOR
+		)
+
+/obj/item/clothing/head/helmet/imperial/scout
+	name = "Phase III Plastoid Scout Helmet"
+	desc = "A Phase III helmet model from the Kaminoan facilities. This one is specilized for scouting and riot control."
+	icon_state = "scout_helmet"
+	item_state = "obj_scout_helmet"
+	valid_accessory_slots = null
+	armor = list(
+		melee = ARMOR_MELEE_VERY_HIGH,
+		bullet = ARMOR_BALLISTIC_RIFLE,
+		laser = ARMOR_LASER_HANDGUNS,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BIO_MINOR
+		)
