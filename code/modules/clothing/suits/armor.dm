@@ -451,8 +451,8 @@
 /obj/item/clothing/suit/armor/heavy/imperial
 	name = "Phase III Plastoid Armor"
 	desc = "The latest model of Kaminoan plastoid armor, now lighter and adjustable to nonclone recruits."
-	icon_state = "storm_suit"
-	item_state = "obj_storm_suit"
+	icon_state = "obj_storm_suit"
+	item_state = "storm_suit"
 	w_class = ITEM_SIZE_HUGE//bulky item
 	gas_transfer_coefficient = 0.90
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
