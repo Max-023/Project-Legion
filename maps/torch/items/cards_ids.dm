@@ -59,19 +59,19 @@
 	job_access_type = /datum/job/psychiatrist
 
 /obj/item/weapon/card/id/torch/silver/security
-	job_access_type = /datum/job/hos
+	job_access_type = /datum/job/stormcom
 	detail_color = "#e00000"
 
 /obj/item/weapon/card/id/torch/crew/security
-	job_access_type = /datum/job/officer
+	job_access_type = /datum/job/storm
 	detail_color = "#e00000"
 
 /obj/item/weapon/card/id/torch/crew/security/brigchief
-	job_access_type = /datum/job/warden
+	job_access_type = /datum/job/riotcommander
 	extra_details = list("onegoldstripe")
 
 /obj/item/weapon/card/id/torch/crew/security/forensic
-	job_access_type = /datum/job/detective
+	job_access_type = /datum/job/inquisitor
 
 
 /obj/item/weapon/card/id/torch/silver/engineering

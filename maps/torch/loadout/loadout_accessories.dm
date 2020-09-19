@@ -75,10 +75,10 @@
 /datum/gear/accessory/armband_ma
 	display_name = "master at arms brassard"
 	path = /obj/item/clothing/accessory/armband/solgov/ma
-	allowed_roles = SECURITY_ROLES
+	allowed_roles = IMPERIAL_ROLES
 
 /datum/gear/accessory/armband_security
-	allowed_roles = SECURITY_ROLES
+	allowed_roles = IMPERIAL_ROLES
 
 /datum/gear/accessory/armband_cargo
 	allowed_roles = SUPPLY_ROLES
@@ -120,7 +120,7 @@
 						/datum/job/mining, /datum/job/janitor, /datum/job/scientist_assistant, /datum/job/merchant, /datum/job/nt_pilot, /datum/job/engineer_trainee, /datum/job/explorer, /datum/job/nt_pilot, /datum/job/pathfinder)
 
 /datum/gear/storage/black_vest
-	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/detective, /datum/job/officer, /datum/job/merchant)
+	allowed_roles = list(/datum/job/merchant)
 
 /datum/gear/storage/white_vest
 	allowed_roles = list(/datum/job/cmo, /datum/job/senior_doctor, /datum/job/doctor, /datum/job/medical_trainee, /datum/job/chemist, /datum/job/merchant, /datum/job/medical_trainee)
@@ -130,7 +130,7 @@
 						/datum/job/mining, /datum/job/janitor, /datum/job/scientist_assistant, /datum/job/merchant, /datum/job/engineer_trainee)
 
 /datum/gear/storage/black_drop_pouches
-	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/detective, /datum/job/officer, /datum/job/merchant)
+	allowed_roles = list(/datum/job/merchant, /datum/job/storm, /datum/job/stormcom, /datum/job/riotcommander, /datum/job/inquisitor, /datum/job/scout)
 
 /datum/gear/storage/white_drop_pouches
 	allowed_roles = list(/datum/job/cmo, /datum/job/senior_doctor, /datum/job/doctor, /datum/job/medical_trainee, /datum/job/chemist, /datum/job/merchant, /datum/job/medical_trainee)

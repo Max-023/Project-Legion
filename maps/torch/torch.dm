@@ -82,7 +82,7 @@
 	#include "job/medical_jobs.dm"
 	#include "job/misc_jobs.dm"
 	#include "job/research_jobs.dm"
-	#include "job/security_jobs.dm"
+	#include "job/imperial_jobs.dm"
 	#include "job/service_jobs.dm"
 	#include "job/supply_jobs.dm"
 
@@ -94,7 +94,7 @@
 	#include "job/outfits/medical_outfits.dm"
 	#include "job/outfits/misc_outfits.dm"
 	#include "job/outfits/research_outfits.dm"
-	#include "job/outfits/security_outfits.dm"
+	#include "job/outfits/imperial_outfits.dm"
 	#include "job/outfits/service_outfits.dm"
 	#include "job/outfits/supply_outfits.dm"
 	#include "job/outfits/unused_outfits.dm"

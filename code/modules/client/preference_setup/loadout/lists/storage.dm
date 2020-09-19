@@ -14,7 +14,7 @@
 	display_name = "webbing, black"
 	path = /obj/item/clothing/accessory/storage/black_vest
 	cost = 3
-	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/detective, /datum/job/officer)
+	allowed_roles = list(/datum/job/stormcom, /datum/job/riotcommander, /datum/job/inquisitor, /datum/job/storm)
 
 /datum/gear/storage/white_vest
 	display_name = "webbing, white"
@@ -33,7 +33,7 @@
 	display_name = "drop pouches, black"
 	path = /obj/item/clothing/accessory/storage/drop_pouches/black
 	cost = 3
-	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/detective, /datum/job/officer)
+	allowed_roles = list(/datum/job/stormcom, /datum/job/riotcommander, /datum/job/inquisitor, /datum/job/storm)
 
 /datum/gear/storage/white_drop_pouches
 	display_name = "drop pouches, white"

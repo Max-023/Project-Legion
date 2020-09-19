@@ -66,11 +66,11 @@
 	item_state = "swat_gl"
 	force = 5
 	armor = list(
-		melee = ARMOR_MELEE_RESISTANT, 
-		bullet = ARMOR_BALLISTIC_PISTOL, 
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_PISTOL,
 		laser = ARMOR_LASER_HANDGUNS,
-		energy = ARMOR_ENERGY_SMALL, 
-		bomb = ARMOR_BOMB_RESISTANT, 
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_RESISTANT,
 		bio = ARMOR_BIO_MINOR)
 
 /obj/item/clothing/gloves/thick/combat //Combined effect of SWAT gloves and insulated gloves
@@ -82,11 +82,11 @@
 	permeability_coefficient = 0.05
 	force = 5
 	armor = list(
-		melee = ARMOR_MELEE_RESISTANT, 
-		bullet = ARMOR_BALLISTIC_PISTOL, 
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_PISTOL,
 		laser = ARMOR_LASER_HANDGUNS,
-		energy = ARMOR_ENERGY_SMALL, 
-		bomb = ARMOR_BOMB_RESISTANT, 
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_RESISTANT,
 		bio = ARMOR_BIO_MINOR)
 	cold_protection = HANDS
 	min_cold_protection_temperature = GLOVES_MIN_COLD_PROTECTION_TEMPERATURE
@@ -129,8 +129,8 @@
 	icon_state = "work"
 	item_state = "wgloves"
 	armor = list(
-		melee = ARMOR_MELEE_MINOR, 
-		bullet = ARMOR_BALLISTIC_MINOR, 
+		melee = ARMOR_MELEE_MINOR,
+		bullet = ARMOR_BALLISTIC_MINOR,
 		laser = ARMOR_LASER_MINOR
 		)
 
@@ -146,8 +146,8 @@
 	siemens_coefficient = 0.50
 	permeability_coefficient = 0.05
 	armor = list(
-		melee = ARMOR_MELEE_KNIVES, 
-		bullet = ARMOR_BALLISTIC_MINOR, 
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_MINOR,
 		laser = ARMOR_LASER_MINOR
 		)
 
@@ -161,10 +161,10 @@
 	siemens_coefficient = 0.7
 	permeability_coefficient = 0.03
 	armor = list(
-		melee = ARMOR_MELEE_RESISTANT, 
-		bullet = ARMOR_BALLISTIC_MINOR, 
-		laser = ARMOR_LASER_SMALL, 
-		energy = ARMOR_ENERGY_SMALL, 
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_MINOR,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_SMALL,
 		bomb = ARMOR_BOMB_PADDED
 		)
 
@@ -185,3 +185,28 @@
 	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
 	max_pressure_protection = FIRESUIT_MAX_PRESSURE
 
+/obj/item/clothing/gloves/storm
+	name = "Stormtrooper Gloves"
+	desc = "Tight gloves whilst firing guns might explain innaccurate stormtroopers come to think of it."
+	icon_state = "white"
+	item_state = "storm_gloves"
+	armor = list(
+		melee = ARMOR_MELEE_VERY_HIGH,
+		bullet = ARMOR_BALLISTIC_AP,
+		laser = ARMOR_LASER_HANDGUNS,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BIO_MINOR
+		)
+
+/obj/item/clothing/gloves/scout
+	name = "Scout Trooper Gloves"
+	desc = "Scout gloves reduce speeder crashes by -50%! consult your local driving licence administration for more on this discovery."
+	icon_state = "white"
+	item_state = "scout_gloves"
+	armor = list(
+		melee = ARMOR_MELEE_VERY_HIGH,
+		bullet = ARMOR_BALLISTIC_AP,
+		laser = ARMOR_LASER_HANDGUNS,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BIO_MINOR
+		)

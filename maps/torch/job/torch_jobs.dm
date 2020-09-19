@@ -9,21 +9,21 @@
 		/datum/species/human/mule = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant)
 	)
 
-#define HUMAN_ONLY_JOBS /datum/job/captain, /datum/job/hop, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/representative, /datum/job/sea, /datum/job/pathfinder
+#define HUMAN_ONLY_JOBS /datum/job/captain, /datum/job/hop, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/representative, /datum/job/sea, /datum/job/pathfinder, /datum/job/storm, /datum/job/stormcom, /datum/job/riotcommander, /datum/job/inquisitor, /datum/job/scout
 	species_to_job_blacklist = list(
-		/datum/species/unathi  = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/warden), //Other jobs unavailable via branch restrictions,
-		/datum/species/unathi/yeosa = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/warden),
+		/datum/species/unathi  = list(HUMAN_ONLY_JOBS, /datum/job/liaison,), //Other jobs unavailable via branch restrictions,
+		/datum/species/unathi/yeosa = list(HUMAN_ONLY_JOBS, /datum/job/liaison),
 		/datum/species/skrell  = list(HUMAN_ONLY_JOBS),
 		/datum/species/machine = list(HUMAN_ONLY_JOBS, /datum/job/liaison),
-		/datum/species/diona   = list(HUMAN_ONLY_JOBS, /datum/job/officer, /datum/job/bodyguard, /datum/job/rd, /datum/job/liaison, /datum/job/warden),	//Other jobs unavailable via branch restrictions,
+		/datum/species/diona   = list(HUMAN_ONLY_JOBS, /datum/job/bodyguard, /datum/job/rd, /datum/job/liaison,),	//Other jobs unavailable via branch restrictions,
 	)
+	                // /datum/job/storm, /datum/job/stormcom, /datum/job/riotcommander, /datum/job/inquisitor, /datum/job/scout: copypasta to remove aliens from the military
 #undef HUMAN_ONLY_JOBS
 
-	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
+	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer,
 						/datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/sea,
 						/datum/job/bridgeofficer, /datum/job/pathfinder, /datum/job/nt_pilot, /datum/job/explorer,
 						/datum/job/senior_engineer, /datum/job/engineer, /datum/job/roboticist, /datum/job/engineer_trainee,
-						/datum/job/officer, /datum/job/warden, /datum/job/detective,
 						/datum/job/senior_doctor, /datum/job/doctor, /datum/job/chemist, /datum/job/medical_trainee,
 						/datum/job/psychiatrist, /datum/job/chaplain,
 						/datum/job/qm, /datum/job/cargo_tech, /datum/job/mining,
