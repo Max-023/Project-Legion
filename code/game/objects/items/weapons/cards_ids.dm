@@ -486,20 +486,20 @@ var/const/NO_EMAG_ACT = -50
 /obj/item/weapon/card/id/security
 	name = "identification card"
 	desc = "A card issued to security staff."
-	job_access_type = /datum/job/officer
+	job_access_type = /datum/job/storm
 	color = COLOR_OFF_WHITE
 	detail_color = COLOR_MAROON
 
 /obj/item/weapon/card/id/security/warden
-	job_access_type = /datum/job/warden
+	job_access_type = /datum/job/riotcommander
 
 /obj/item/weapon/card/id/security/detective
-	job_access_type = /datum/job/detective
+	job_access_type = /datum/job/inquisitor
 
-/obj/item/weapon/card/id/security/head
+/obj/item/weapon/card/id/security/stormcom
 	name = "identification card"
 	desc = "A card which represents honor and protection."
-	job_access_type = /datum/job/hos
+	job_access_type = /datum/job/stormcom
 	extra_details = list("goldstripe")
 
 /obj/item/weapon/card/id/engineering

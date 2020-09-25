@@ -14,7 +14,7 @@
 	name = OUTFIT_JOB_NAME("Head of security")
 	l_ear = /obj/item/device/radio/headset/heads/hos
 	uniform = /obj/item/clothing/under/rank/head_of_security
-	id_type = /obj/item/weapon/card/id/security/head
+	id_type = /obj/item/weapon/card/id/torch/silver/security
 	pda_type = /obj/item/modular_computer/pda/heads/hos
 	backpack_contents = list(/obj/item/weapon/handcuffs = 1)
 
@@ -47,7 +47,7 @@
 	suit = /obj/item/clothing/suit/storage/forensics/blue
 
 /decl/hierarchy/outfit/job/security/officer
-	name = OUTFIT_JOB_NAME("Security Officer")
+	name = OUTFIT_JOB_NAME("Stormtrooper")
 	uniform = /obj/item/clothing/under/rank/security
 	l_pocket = /obj/item/device/flash
 	r_pocket = /obj/item/weapon/handcuffs

@@ -9,7 +9,7 @@
 	..()
 
 /datum/gear/eyes/security
-	allowed_roles = SECURITY_ROLES
+	allowed_roles = IMPERIAL_ROLES
 
 /datum/gear/eyes/medical
 	allowed_roles = MEDICAL_ROLES

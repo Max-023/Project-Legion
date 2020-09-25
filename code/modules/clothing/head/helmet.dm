@@ -227,8 +227,8 @@
 /obj/item/clothing/head/helmet/imperial
 	name = "Phase III Plastoid Helmet"
 	desc = "A Phase III helmet model from the Kaminoan facilities."
-	icon_state = "storm_helmet"
-	item_state = "obj_storm_helmet"
+	icon_state = "obj_storm_helmet"
+	item_state = "storm_helmet"
 	valid_accessory_slots = null
 	armor = list(
 		melee = ARMOR_MELEE_MAJOR,
@@ -241,8 +241,8 @@
 /obj/item/clothing/head/helmet/imperial/scout
 	name = "Phase III Plastoid Scout Helmet"
 	desc = "A Phase III helmet model from the Kaminoan facilities. This one is specilized for scouting and riot control."
-	icon_state = "scout_helmet"
-	item_state = "obj_scout_helmet"
+	icon_state = "obj_scout_helmet"
+	item_state = "scout_helmet"
 	valid_accessory_slots = null
 	armor = list(
 		melee = ARMOR_MELEE_VERY_HIGH,

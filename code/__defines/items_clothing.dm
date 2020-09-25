@@ -37,9 +37,9 @@
 
 // Bitmasks for the flags_inv variable. These determine when a piece of clothing hides another, i.e. a helmet hiding glasses.
 // WARNING: The following flags apply only to the external suit!
-#define HIDEGLOVES      0x1
+#define HIDEGLOVES      0x0
 #define HIDESUITSTORAGE 0x2
-#define HIDEJUMPSUIT    0x4
+#define HIDEJUMPSUIT    0x0
 #define HIDESHOES       0x8
 #define HIDETAIL        0x10
 
@@ -47,7 +47,7 @@
 #define HIDEMASK 0x1
 #define HIDEEARS 0x2 // Headsets and such.
 #define HIDEEYES 0x4 // Glasses.
-#define HIDEFACE 0x8 // Dictates whether we appear as "Unknown".
+#define HIDEFACE 0x8 // set to 0x0 for endless enjoyment
 
 #define BLOCKHEADHAIR   0x20    // Hides the user's hair overlay. Leaves facial hair.
 #define BLOCKHAIR       0x40    // Hides the user's hair, facial and otherwise.
@@ -170,8 +170,8 @@
 #define  FIRESUIT_MAX_PRESSURE 		100 * ONE_ATMOSPHERE   // Firesuis and atmos voidsuits
 #define  RIG_MAX_PRESSURE 			50 * ONE_ATMOSPHERE   // Rigs
 #define  LIGHT_RIG_MAX_PRESSURE 	25 * ONE_ATMOSPHERE   // Rigs
-#define  ENG_VOIDSUIT_MAX_PRESSURE 	50 * ONE_ATMOSPHERE 
-#define  VOIDSUIT_MAX_PRESSURE 		25 * ONE_ATMOSPHERE 
+#define  ENG_VOIDSUIT_MAX_PRESSURE 	50 * ONE_ATMOSPHERE
+#define  VOIDSUIT_MAX_PRESSURE 		25 * ONE_ATMOSPHERE
 #define  SPACE_SUIT_MAX_PRESSURE 	5 * ONE_ATMOSPHERE
 
 // Fire.
