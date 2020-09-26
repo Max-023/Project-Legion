@@ -18,7 +18,7 @@
 
 #undef TECHNICAL_ROLES
 
-#undef SECURITY_ROLES
+#undef IMPERIAL_ROLES
 
 #undef SUPPLY_ROLES
 

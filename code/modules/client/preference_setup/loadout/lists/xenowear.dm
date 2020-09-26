@@ -77,7 +77,7 @@
 	path = /obj/item/clothing/head/helmet/skrell
 	whitelisted = list(SPECIES_SKRELL)
 	sort_category = "Xenowear"
-	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/officer, /datum/job/detective)
+	allowed_roles = list(/datum/job/stormcom, /datum/job/riotcommander, /datum/job/storm, /datum/job/inquisitor)
 
 /datum/gear/accessory/skrell_badge
 	display_name = "skrellian SDTF badge"

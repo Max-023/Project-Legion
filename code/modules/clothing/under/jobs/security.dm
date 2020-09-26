@@ -231,20 +231,20 @@
 /obj/item/clothing/under/rank/imperial
 	desc = "A standard imperial bodyglove, fitted to don armor."
 	name = "imperial jumpsuit"
-	icon_state = "jumpsuit_black_i_s"
-	item_state = "jumpsuit_black_i"
+	icon_state = "jumpsuit_black_i"
+	item_state = "jumpsuit_black_i_s"
 	worn_state = "jumpsuit_black_i_s"
 
 /obj/item/clothing/under/rank/imperial/navy
 	desc = "A standard imperial naval uniform."
 	name = "imperial uniform"
-	icon_state = "imperial_black_s"
-	item_state = "imperial_black"
+	icon_state = "imperial_black"
+	item_state = "imperial_black_s"
 	worn_state = "imperial_black_s"
 
 /obj/item/clothing/under/rank/imperial/navy/officer
 	desc = "A standard imperial naval uniform."
 	name = "imperial uniform"
-	icon_state = "imperial_admiral_s"
-	item_state = "imperial_admiral"
+	icon_state = "imperial_admiral"
+	item_state = "imperial_admiral_s"
 	worn_state = "imperial_admiral_s"
